@@ -96,13 +96,13 @@ body{
 }
 
 @media only screen and (min-width: 321px){
-    .body{
+    body{
         width:300px;
     }
 }
 
-@media(max-width:400px){
-    .body{
+@media only screen and (max-width:400px){
+    body{
         width:390px;
     }
 }
